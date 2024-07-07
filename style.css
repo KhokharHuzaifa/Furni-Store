@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.hero{
+    background-color: rgb(59, 93, 80);
+    overflow: hidden;
+}
+.navbar-brand{
+    font-size: 35px !important;
+    color:white !important;
+    font-weight: 600;
+}
+.nav-link{
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: rgb(249, 191, 41) !important;
+    transition: 0.3s ease-in-out;
+}
+.hero-title{
+    color: white !important;
+}
+.hero-txt{
+    opacity: 0.5;
+    color: white ;
+    font-size: 15px;
+    line-height: 30px;
+}
+.hero-btn1{
+    background-color: rgb(249, 191, 41) !important;
+    border-radius: 50px !important;
+    padding: 10px 35px !important;
+    font-weight: 600 !important;
+}
+.hero-btn2{
+    border: 2px solid rgba(255, 255, 255, 0.301) !important;
+    border-radius: 50px !important;
+    padding: 10px 35px !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+.hero-btn2:hover{
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+.hero-img{
+  width: 100%;
+}
+
+@media screen and (max-width:315px) {
+    .hero-btn1{
+        padding: 10px 20px !important;
+    }
+    .hero-btn2{
+        padding: 10px 20px !important;
+    }
+}
+
+.prods-container{
+    background-color: rgb(239, 242, 241);
+}
+.prods-btn{
+    background-color: #222 !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 10px 35px !important;
+    font-weight: 600 !important;
+}
+.prods-btn:hover{
+    background-color: black !important;
+}
+.prod-card{
+    background-color: rgba(0, 0, 0, 0.082);
+    border-radius: 10px;
+}
+.prod-desc{
+    opacity: 0.8;
+}
+.prod-title{
+    font-weight: 700;
+    font-size: 18px;
+}
+.prod-price{
+    font-weight: 700;
+}
+.choose-container{
+    background-color: rgb(239, 242, 241);   
+}
+.choose-img{
+    border-radius: 20px;
+}
+.choose-title{
+font-weight: 500;
+}
+.choose-desc{
+    opacity: 0.8;
+}
+.grid-container{
+    background-color: rgb(239, 242, 241);
+}
+.grid1{
+    width: 60%;
+    border-radius: 20px;
+}
+.grid2{
+    width: 45%;
+    border-radius: 20px;
+}
+.grid3{
+    width: 40%;
+    border-radius: 20px;
+}
+.grid-desc{
+    opacity: 0.8;
+    line-height: 1.8;
+    font-size: 15px;
+}
+.testimonials{
+    background-color: rgb(239, 242, 241);
+}
+.carousel-control-prev{
+   height: 60px;
+   border-radius: 50px;
+   width: 60px !important;
+}
+.carousel-control-next{
+    height: 60px;
+    border-radius: 50px;
+    width: 60px !important;
+}
+.testimonial-img{
+    border-radius: 50px;
+    width: 75px;
+}
+.accordion-body{
+    opacity: 0.7;
+}
+.card-title , .card-text{
+    opacity: 0.9;
+}
+.card{
+    border: none !important;
+}
+.card-body{
+    background-color: rgb(239, 242, 241);
+}
+.mail-text{
+    color: rgb(59, 93, 80);
+}
+.form-control{
+    border-radius: 7px !important;
+    border:1px solid rgb(59, 93, 80) !important;
+}
+.send-msg{
+    background-color: rgb(59, 93, 80) !important;
+    padding: 7px 30px !important;
+    font-size: 20px !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+.footer{
+    background-color: rgb(239, 242, 241) !important;
+}
+.footer-heading{
+    color: rgb(59, 93, 80) !important;
+}
+.footer-link{
+    color: #222 !important;
+    font-size: 15px;
+}
+.footer-link:hover{
+    color: black !important; 
+    opacity: 0.7;
+}
+.footer-desc{
+    opacity: 0.8;
+    line-height: 1.8;
+}
+.footer-btn{
+    border-radius: 50px !important;
+    padding: 7px 12px !important;
+    background-color: rgb(220, 229, 228) !important;
+}
+.footer-btn{
+    background-color: rgb(59, 93, 80) !important;
+}
+.footer-icon{
+    color: white !important;
+    font-size: 20px;
+}
+.credit{
+    opacity: 0.3;
+}
+.teams{
+    background-color: rgb(239, 242, 241);
+}
